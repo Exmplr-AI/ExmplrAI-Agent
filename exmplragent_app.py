@@ -28,8 +28,8 @@ st.markdown(
 )
 
 # Title and Description
-st.title("Exmplr Conversational Agent")
-st.write("A conversational agent for querying clinical trials and demographic data using Exmplr APIs.")
+st.title("Exmplr AI Conversational Agent")
+st.write("A conversational agent to ask for anything related to a disease or a drug.")
 
 # Initialize Session State for Messages and Parameters
 if "messages" not in st.session_state:
