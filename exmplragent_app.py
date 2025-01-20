@@ -83,7 +83,7 @@ if prompt := st.chat_input("Ask me about clinical trials..."):
         params_dict.update(json.loads(params))  # Update session state with extracted parameters
         st.session_state["params"] = params_dict
 
-        st.write("Payload being sent to the API:", params_dict)
+        # st.write("Payload being sent to the API:", params_dict)
 
         # Fetch results
         with st.spinner("Fetching results..."):
